@@ -73,7 +73,7 @@ public class Main {
         if (studentsYetToBeServed.isEmpty()) {
             System.out.println("\nNo results found\n");
         } else {
-            System.out.println("\nList of students in order:\n");
+            System.out.println("\nList of students:\n");
             for (Student student : studentsYetToBeServed) {
                 System.out.println(student.getName());
             }
